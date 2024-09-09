@@ -1,15 +1,14 @@
-import react from 'react'
-
-import './App.css'
+import react from "react";
+import "./App.css";
+import  "./index.css"
+import Home from "./Pages/Home/Home";
 
 function App() {
- 
-
   return (
-    <>
-     <h1>Hello Netflix</h1>
-    </>
-  )
+    <div className="App">
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App;
